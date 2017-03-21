@@ -1,0 +1,29 @@
+.loadContainer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.6s ease all;
+}
+
+.loadContainer.active {
+  max-height: 100px;
+}
+
+.loadMore {
+  cursor: pointer;
+  padding: 0.5em;
+  margin-top: 5px;
+  border: 1px solid;
+  display: inline-block;
+}
+
+@media(min-width: 1024px) {
+  .loadMore:hover {
+    opacity: 0.8;
+  }
+}
+
+
+/**********************Reset-Styles*******************/
+.filter__item {
+  margin-bottom: 20px;
+}
